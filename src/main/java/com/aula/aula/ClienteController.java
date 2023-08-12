@@ -7,7 +7,7 @@ import java.util.Collection;
 // Create (POST) Read (GET) Update (PUT) Delete (DELETE)
 @RestController
 @RequestMapping(path = "/cliente")
-public class ClienteController { // Model View Controller
+public class ClienteController {
     private ClienteRepository clienteRepository;
 
     public ClienteController(ClienteRepository clienteRepository) {
